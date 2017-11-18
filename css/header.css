@@ -13,10 +13,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 header p {
 	font-size: 9px;
 	text-transform: uppercase;
-	display:inline-block;
-	margin-left: 10px;
-	vertical-align: middle;
-	margin-left: 5px;
+	float: right;	
+	vertical-align: middle;	
+    margin-left: 12px;
+    margin-top: 34px;
 }
 .contact {
 	text-transform: uppercase;
@@ -33,10 +33,15 @@ header p {
 	font-size: 25px;
 }
 
+.logo-header {
+	overflow: hidden;
+	float:left;
+    margin-top: 11px;
+    margin-left: 97px;
+}
+
 .logo {
-	margin-top:5px;
-	margin-left:5px;
-	display:inline-block;
+	
 	float: left;
     
 }
@@ -44,7 +49,8 @@ header p {
 	width: 941px;
 	margin:auto;
 	background: #ffffff;
-	box-sizing: border-box;
+	position: relative;
+    top: 24px;
 }
 
 .nav-pills>li>a {
@@ -100,9 +106,9 @@ nav-pills>li+li {
 }
 
 .tel{
-	display:inline-block;
-	margin-left: 150px;
-	margin-top:10px;
+	margin-left: 124px;
+    margin-top: 30px;
+    float: right;
 }
 
 
