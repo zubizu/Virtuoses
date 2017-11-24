@@ -1,0 +1,28 @@
+.facebook, .vk, .instagram, .youtube{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: -6px -10px ;
+	width: 26px;
+	height: 26px;
+}
+
+.vk{
+	background-position: -38px -10px ;
+	width: 26px;
+	height: 26px;
+}
+
+.instagram{
+	background-position: -69px -10px ;
+	width: 27px;
+	height: 27px;
+}
+
+.youtube{
+	background-position: -101px -10px ;
+	width: 26px;
+	height: 26px;
+}
+

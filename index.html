@@ -12,6 +12,7 @@
 	<header>	
 		
 		<div class="container-fluid">
+		<section class="head-info">	
 			<div class="logo-header">
 			  <div class="logo"><img src="img/logo.png"> </div>
 			  <p class="text-uppercase">Музыкальная <br> школа для взрослых и детей</p>
@@ -31,9 +32,57 @@
 				  		<div class="social-media livej"> </div>
 				  		<div class="social-media google"> </div>
 				  </section>              
-			</div>
 
-			<ul class="nav nav-pills" role="tablist">
+			</section>	  
+			</div>
+	</header>		
+	
+<!— Классы navbar и navbar-default —> 
+<nav class="navbar navbar-default"> 
+<!— Контейнер —> 
+<div class="container-fluid"> 
+<!— Заголовок —> 
+<div class="navbar-header"> 
+<!— Кнопка «Гамбургер» —> 
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false"> 
+<span class=sr-only>Toggle navigation</span> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+</button> 
+<!— Бренд или название сайта —> 
+<!-- <a class="navbar-brand" href="#">Brand</a>  -->
+</div> 
+<!— Основная часть меню —> 
+<div class="collapse navbar-collapse" id="navbar-main"> 
+
+<!— Содержимое основной части —> 
+<ul class="nav navbar-nav"> 
+
+<li class="text-uppercase divider"><a href="#">Наши курсы</a></li> 
+<li class="text-uppercase"><a href="#">Мероприятия</a></li> 
+<li class="text-uppercase divider"><a href="#">Цены</a></li> 
+<li class="text-uppercase"><a href="#">Преподаватели</a></li> 
+<li class="text-uppercase"><a href="#">О школе</a></li>
+<li class="text-uppercase"><a href="#">Франшиза</a></li>
+<li class="text-uppercase"><a href="#">Контакты</a></li>
+<li class="active text-uppercase"><a href="#">Пробное занятие <span class="sr-only">(current)</span></a></li> 
+<!— Выпадающий список —> 
+<!-- <li class="dropdown"> 
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Раздел <span class="caret"></span></a> 
+<ul class="dropdown-menu"> 
+<li><a href="#">Ссылка</a></li> 
+<li><a href="#">Ссылка</a></li> 
+<li role="separator" class="divider"></li> 
+<li><a href="#">Ссылка</a></li> 
+</ul> 
+</li>  -->
+</ul> 
+
+</div> 
+</div> 
+</nav>
+		<!-- 	<ul class="nav nav-pills" role="tablist">
 			  	<li><a href="#">Наши курсы</a></li>
 			    <li><a href="#">Мероприятия</a></li>
 			    <li><a href="#">Цены</a></li>
@@ -42,10 +91,10 @@
 			    <li><a href="#">Франшиза</a></li>
 			    <li><a href="#">Контакты</a></li>    
 			    <li class="active"><a href="#">Пробное занятие</a></li>    
-			</ul>
+			</ul> -->
 		</div>
 
-	</header>
+
 
 
 	 <script src="script/jquery-3.2.1.min.js"></script>

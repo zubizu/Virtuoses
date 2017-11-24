@@ -1,5 +1,12 @@
+/*========================
+лого хэдер
+========================*/
+
 header {
 	font-family: "Open Sans";
+}
+
+header {	
 	background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(234,234,234,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(234,234,234,1)));
@@ -10,6 +17,7 @@ header {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea', GradientType=0 )
 }
 
+
 header p {
 	font-size: 9px;
 	float: right;	
@@ -19,7 +27,7 @@ header p {
 }
 .contact {
 	font-size: 10px;
-	}
+}
 
 .city {
 	border-bottom:1px dashed black;
@@ -35,74 +43,72 @@ header p {
 	overflow: hidden;
 	float:left;
 	margin-top: 11px;
-	margin-left: 97px;
 }
 
 .logo {
 	float: left;
 }
 
-.nav {
-	width: 941px;
-	margin:auto;
-	background: #ffffff;
-	position: relative;
-	top: 24px;
+/*.nav {
+width: 941px;
+margin:auto;
+background: #ffffff;
+position: relative;
+top: 24px;
 }
 
 .nav-pills>li>a {
-	border-radius: 0px;
-	color:#000000;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 12px;
+border-radius: 0px;
+color:#000000;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 12px;
 }
 .nav-pills>li.active>a {
-	background: #57bd20;	
+background: #57bd20;	
 
 }
 
 .nav-pills>li.active {
-	border-bottom: 5px solid #3f9b26;
-	background: #57bd20;
+border-bottom: 5px solid #3f9b26;
+background: #57bd20;
 }
 .nav-pills>li.active>a:hover {
-	background:#57bd20; 
+background:#57bd20; 
 
 }
 ul {
-	clear:both;
+clear:both;
 }
 
 .nav li {
-	border-right:1px solid #e7e7e7;
-	border-bottom: 5px solid #e7e7e7;
-	margin-left: 0px;
-	padding: 8px 3px;
+border-right:1px solid #e7e7e7;
+border-bottom: 5px solid #e7e7e7;
+margin-left: 0px;
+padding: 8px 3px;
 }
 
 .nav-pills>li+li {
-	margin-left: 0px;
+margin-left: 0px;
 }
 
 .nav li:hover {
-	background:#57bd20; 
-	border-bottom: 5px solid #3f9b26;
-	color:#ffffff;
+background:#57bd20; 
+border-bottom: 5px solid #3f9b26;
+color:#ffffff;
 }
 
 
 .nav>li>a:hover {
-	background: #57bd20;
-	color: #ffffff;
+background: #57bd20;
+color: #ffffff;
 }
 
 nav-pills>li+li {
-	margin-left: 0px;
-}
+margin-left: 0px;
+}*/
 
 .tel{
-	margin-left: 124px;
 	margin-top: 30px;
 	float: right;
 }
@@ -156,3 +162,83 @@ nav-pills>li+li {
 	width: 16px;
 	height: 16px;
 }
+
+/*===================
+навигация
+===================*/
+.navbar {
+	float:none;
+	background: #fff;
+	position: relative;
+	/*top: 24px;*/
+
+}
+.navbar-default, .head-info {
+	width: 941px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav li {
+	border-bottom: 5px solid #e7e7e7;
+	border-right:1px solid #e7e7e7;
+	margin-left: 0px;
+	
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+
+}
+.nav>li>a {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+ 
+	background:#57bd20; 
+	border-bottom: 5px solid #3f9b26;
+	color:#ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background:#57bd20; 
+	border-bottom: 5px solid #3f9b26;
+	color:#ffffff;
+}
+
+@media(min-width: 768px) { 
+.navbar-collapse.collapse { 
+	display: none !important; 
+	visibility: hidden !important; 
+	height: auto !important; 
+	padding-bottom: 0; 
+	overflow: hidden !important; 
+} 
+.navbar-collapse.in { 
+	display: block !important; 
+	visibility: visible !important; 
+} 
+.navbar-toggle { 
+	display: block; 
+} 
+.navbar-header { 
+	float: none; 
+} 
+} 
+@media(min-width: 941px) { 
+.navbar-collapse.collapse { 
+	display: block !important; 
+	visibility: visible !important; 
+	height: auto !important; 
+	padding-bottom: 0; 
+	overflow: hidden !important; 
+	padding: 0; 
+} 
+.navbar-toggle { 
+	display: none; 
+} 
+.navbar-header { 
+	float: left; 
+} 
+} 	
