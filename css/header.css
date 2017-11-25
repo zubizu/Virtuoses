@@ -126,7 +126,7 @@ margin-left: 0px;
 .social {
 	background:url("/Курсы/vsyakoe/Virtuoses/img/social/sprites.png") no-repeat;
 	position: absolute;
-	right: -29px;
+	right: -30px;
     top: 56px;
 }
 
@@ -189,12 +189,6 @@ margin-left: 0px;
 	margin-right:auto;
 }
 
-.navbar-default .navbar-nav>li>a {
-	
-	border-right:1px solid #e7e7e7;
-	margin-left: 0px;
-	
-}
 
 .navbar-default .navbar-nav>li>a {
 	color: #000;
@@ -203,6 +197,8 @@ margin-left: 0px;
 	font-weight: bold;
 	font-size: 12px;
 	border-bottom: 5px solid #e7e7e7;
+	border-right:1px solid #e7e7e7;
+	margin-left: 0px;
 	padding-left:  18px;
 	padding-right: 18px;
 	color: #000;
@@ -212,12 +208,16 @@ margin-left: 0px;
 }
 
 
+.text-uppercase a {
+	display: inline-block;
+}
 
 .navbar-default .navbar-nav>.active>a {
 	background:#57bd20; 
 	border-bottom: 5px solid #3f9b26;
 	color:#ffffff;
-	
+	padding-right: 19px;
+	padding-left: 19px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
