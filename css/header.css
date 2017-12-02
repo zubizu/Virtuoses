@@ -23,7 +23,7 @@ header {
 
 header p {
 	font-size: 9px;
-	float: right;	
+	float: left;	
 	vertical-align: middle;	
 	margin-left: 12px;
 	margin-top: 34px;
@@ -40,12 +40,14 @@ header p {
 	font-weight:bold;
 	font-family: "Open Sans";
 	font-size: 25px;
+	height: 32px;
 }
 
 .logo-header {
 	overflow: hidden;
 	float:left;
 	margin-top: 11px;
+	
 }
 
 .logo {
@@ -67,7 +69,7 @@ header p {
 }    
 
 .social {
-    
+	margin-right: 18px;
 }
 
 .logo>a>img {
@@ -87,7 +89,7 @@ header p {
 	background: #fff;
 	position: relative;
 	border-radius: 0px;
-	top: -24px;
+	top: -20px;
 
 }
 .navbar-default, .head-info {
@@ -130,8 +132,25 @@ header p {
 }
 
 
+@media(max-width: 1450px) { 
+.navbar-collapse.collapse { 
+	display: block !important; 
+	visibility: visible !important; 
+	height: auto !important; 
+	padding-bottom: 0; 
+	overflow: hidden !important; 
+	padding: 0; 
+} 
+.navbar-toggle { 
+	display: none; 
+} 
+.navbar-header { 
+	float: left; 
+} 
+} 
 
-@media(min-width: 768px) and (max-width: 960px;) { 
+
+@media  (max-width: 960px) { 
 .navbar-collapse.collapse { 
 	display: none !important; 
 	visibility: hidden !important; 
@@ -152,49 +171,77 @@ header p {
 
 .head-info {
 	width: 100%;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:10px;
+	margin-right:10px;
 }
 
  .logo>a>img  {
 	width:50%;
-	height: 50%
+	height: 50%;
 	
 }
 
 } 
-@media(min-width: 960px) { 
-.navbar-collapse.collapse { 
-	display: block !important; 
-	visibility: visible !important; 
-	height: auto !important; 
-	padding-bottom: 0; 
-	overflow: hidden !important; 
-	padding: 0; 
-} 
-.navbar-toggle { 
-	display: none; 
-} 
-.navbar-header { 
-	float: left; 
-} 
-} 	
+	
 
-@media(min-width: 320px) and (max-width: 765px;) {
+@media  (max-width: 765px) {
 .head-info {
 	padding-right: 10px;
 	padding-left: 10px;
 	width:100%;
-	}
+}
 
-	
+.container-fluid {
+	padding-right: 10px; 
+	padding-left: 10px; 
+	margin-right: auto;
+	margin-left: auto;
+}    
+
+.logo-header {
+	overflow: hidden;
+	float:left;
+	margin-top: 11px;
+	width:70%;
+}
  .logo>a>img  {
 	width:40%;
 	height:auto;
 	
 }
 
+.tel {
+	width:30%;
+	display:inline-block;
+}
+.social {
+	margin-right: 0px;
+}
+
 header p {
-	font-size: 5px;
+	font-size: 6px;
+	float:none;	
+	vertical-align: middle;	
+	margin-left: 12px;
+	margin-top: 34px;
+}
+
+.logo {
+	float:left;
+	margin-top: 34px;
+}
+
+.phone {
+    font-size: 11px;
+
+}
+
+.contact {
+    font-size: 5px;
+}
+.phone {
+    font-size: 9px;
+    height: 12px;
 }
 }
+
