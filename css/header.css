@@ -6,6 +6,7 @@ header {
 	font-family: "Open Sans";
 	box-sizing: border-box;
 	height: 117px;
+
 }
 
 header {	
@@ -51,64 +52,6 @@ header p {
 	float: left;
 }
 
-/*.nav {
-width: 941px;
-margin:auto;
-background: #ffffff;
-position: relative;
-top: 24px;
-}
-
-.nav-pills>li>a {
-border-radius: 0px;
-color:#000000;
-text-transform: uppercase;
-font-weight: bold;
-font-size: 12px;
-}
-.nav-pills>li.active>a {
-background: #57bd20;	
-
-}
-
-.nav-pills>li.active {
-border-bottom: 5px solid #3f9b26;
-background: #57bd20;
-}
-.nav-pills>li.active>a:hover {
-background:#57bd20; 
-
-}
-ul {
-clear:both;
-}
-
-.nav li {
-border-right:1px solid #e7e7e7;
-border-bottom: 5px solid #e7e7e7;
-margin-left: 0px;
-padding: 8px 3px;
-}
-
-.nav-pills>li+li {
-margin-left: 0px;
-}
-
-.nav li:hover {
-background:#57bd20; 
-border-bottom: 5px solid #3f9b26;
-color:#ffffff;
-}
-
-
-.nav>li>a:hover {
-background: #57bd20;
-color: #ffffff;
-}
-
-nav-pills>li+li {
-margin-left: 0px;
-}*/
 
 .tel{
 	margin-top: 26px;
@@ -124,53 +67,17 @@ margin-left: 0px;
 }    
 
 .social {
-	background:url("/Курсы/vsyakoe/Virtuoses/img/social/sprites.png") no-repeat;
-	position: absolute;
-	right: -30px;
-    top: 56px;
+    
 }
 
-.social-media{
-	margin-right: 35px;
-	display:inline-block;
-	margin-top: 15px;
+.logo>a>img {
+	width:100%;
+}
+.social img {
+	padding-left: 2px;
 }
 
-.twitter{
-	background-position: -49px -16px;
-	width: 16px;
-	height: 16px;
-}
-.vk{
-	background-position: -7px -16px;
-	width: 16px;
-	height: 16px;
-}
-.facebook{
-	background-position: -28px -16px;
-	width: 16px;
-	height: 16px;
-}
-.ok{
-	background-position: -70px -16px;
-	width: 16px;
-	height: 16px;
-}
-.mail{
-	background-position: -91px -16px;
-	width: 16px;
-	height: 16px;
-}
-.google{
-	background-position: -133px -16px;
-	width: 16px;
-	height: 16px;
-}
-.livej{
-	background-position: -112px -16px;
-	width: 16px;
-	height: 16px;
-}
+
 
 /*===================
 навигация
@@ -201,10 +108,6 @@ margin-left: 0px;
 	margin-left: 0px;
 	padding-left:  18px;
 	padding-right: 18px;
-	color: #000;
-	font-weight: bold;
-	font-size: 12px;
-	border-bottom: 5px solid #e7e7e7;
 }
 
 
@@ -226,7 +129,9 @@ margin-left: 0px;
 	color:#ffffff;
 }
 
-@media(min-width: 768px) { 
+
+
+@media(min-width: 768px) and (max-width: 960px;) { 
 .navbar-collapse.collapse { 
 	display: none !important; 
 	visibility: hidden !important; 
@@ -244,6 +149,19 @@ margin-left: 0px;
 .navbar-header { 
 	float: none; 
 } 
+
+.head-info {
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ .logo>a>img  {
+	width:50%;
+	height: 50%
+	
+}
+
 } 
 @media(min-width: 960px) { 
 .navbar-collapse.collapse { 
@@ -261,3 +179,22 @@ margin-left: 0px;
 	float: left; 
 } 
 } 	
+
+@media(min-width: 320px) and (max-width: 765px;) {
+.head-info {
+	padding-right: 10px;
+	padding-left: 10px;
+	width:100%;
+	}
+
+	
+ .logo>a>img  {
+	width:40%;
+	height:auto;
+	
+}
+
+header p {
+	font-size: 5px;
+}
+}
