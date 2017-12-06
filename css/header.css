@@ -90,6 +90,7 @@ header p {
 	position: relative;
 	border-radius: 0px;
 	top: -20px;
+    z-index: 10;
 
 }
 .navbar-default, .head-info {
@@ -147,6 +148,9 @@ header p {
 .navbar-header { 
 	float: left; 
 } 
+/*.navbar-default, .head-info {
+	width:100%;
+}*/
 } 
 
 
@@ -166,7 +170,7 @@ header p {
 	display: block; 
 } 
 .navbar-header { 
-	float: none; 
+	float: left; 
 } 
 
 .head-info {
@@ -176,15 +180,24 @@ header p {
 }
 
  .logo>a>img  {
-	width:50%;
-	height: 50%;
+	width:70%;
+	height: auto;
 	
+}
+
+.navbar-default, .head-info {
+	width:100%;
 }
 
 } 
 	
 
-@media  (max-width: 765px) {
+@media  (max-width: 767px) {
+
+header {
+    height: 150px;
+}
+
 .head-info {
 	padding-right: 10px;
 	padding-left: 10px;
@@ -203,33 +216,38 @@ header p {
 	float:left;
 	margin-top: 11px;
 	width:70%;
+	margin-top:0;
 }
+
+.logo {
+	margin-top: 5px;
+	margin-right: 15px;
+	
+}
+
+
  .logo>a>img  {
-	width:40%;
+	width: 80%;
 	height:auto;
 	
 }
 
 .tel {
-	width:30%;
-	display:inline-block;
+	width:100%;
+	margin-top: 5px;
+	clear:both; 
+	text-align: left;
 }
 .social {
 	margin-right: 0px;
 }
 
 header p {
-	font-size: 6px;
-	float:none;	
+	font-size: 8px;
 	vertical-align: middle;	
-	margin-left: 12px;
-	margin-top: 34px;
+	margin-top: 5px;
 }
 
-.logo {
-	float:left;
-	margin-top: 34px;
-}
 
 .phone {
     font-size: 11px;
@@ -237,11 +255,18 @@ header p {
 }
 
 .contact {
-    font-size: 5px;
+    font-size: 8px;
 }
 .phone {
     font-size: 9px;
     height: 12px;
 }
+
+.navbar-nav {
+	 margin: 0; 
 }
+
+}
+
+
 
