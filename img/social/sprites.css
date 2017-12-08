@@ -1,0 +1,46 @@
+.twit, .vk, .facebook, .ok, .mail, .google, .livej{
+	background: url(sprites.png) no-repeat;
+}
+
+.twit{
+	background-position: -49px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.vk{
+	background-position: -7px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.facebook{
+	background-position: -28px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.ok{
+	background-position: -70px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.mail{
+	background-position: -91px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.google{
+	background-position: -133px -16px ;
+	width: 16px;
+	height: 16px;
+}
+
+.livej{
+	background-position: -112px -16px ;
+	width: 16px;
+	height: 16px;
+}
+

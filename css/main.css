@@ -1,0 +1,57 @@
+
+.row {
+	padding-left: 100px; 
+	padding-right:100px;
+}
+
+.for-someone {
+	background: url("../img/block-for.png") 50% 57% no-repeat;
+	height: 105px;
+	border-radius: 5px;
+	padding-left:30px;
+	padding-top:25px;
+}
+
+.for-someone p, .what-you-wait p {
+	color:#fff;
+	font-size:55px;
+	font-family: "Open Sans";
+	font-weight: bold;
+}
+
+.what-you-wait {
+	background: url("../img/wait.png") 2% 95% no-repeat;
+	height: 105px;
+	border-radius: 5px;
+	padding-left:30px;
+	padding-top:25px;
+}
+
+.col-lg-5 {
+	height:1097px;
+	background: url("../img/musicfon.png") 0 0 no-repeat;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-lg-7 ul {
+	font-size:22px;
+	font-family: "Open Sans";
+	list-style: url("../img/range.png");
+    padding-left: 30px;
+    padding-top:40px;
+}
+
+.col-lg-7 ul>li {
+	padding-left: 15px;
+}
+
+.impressions {
+	padding-left: 30px;
+	padding-top:26px;
+}
+
+.impressions h4 {
+	color:#57b720;
+	font-weight:bold;
+}
