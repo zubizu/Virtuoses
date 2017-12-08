@@ -91,7 +91,10 @@ header p {
 	position: relative;
 	border-radius: 0px;
 	top: -20px;
-    z-index: 10;
+	min-height: 50px; 
+	margin-bottom: 0;  
+	border: 1px solid transparent; 
+	z-index: 10;
 
 }
 .navbar-default, .head-info {
@@ -137,11 +140,6 @@ header p {
 }
 
 
-
-
-
-
-
 @media  (max-width: 960px) { 
 
 .head-info {
@@ -167,7 +165,7 @@ header p {
     margin-top: 15px;
 }
 .navbar-nav {
-  margin: 0;
+	margin: 0;
 }
 
 } 
@@ -201,30 +199,27 @@ header {
  	padding: 0 10px;
 }
 
-
 }
-
-
 
 /** TOP NAVIGATION BUTSTRAP CUSTOMIZE **/ 
 
 @media(min-width: 768px) { 
 .navbar-collapse.collapse { 
-display: none !important; 
-visibility: hidden !important; 
-height: auto !important; 
-padding-bottom: 0; 
-overflow: hidden !important; 
+	display: none !important; 
+	visibility: hidden !important; 
+	height: auto !important; 
+	padding-bottom: 0; 
+	overflow: hidden !important; 
 } 
 .navbar-collapse.in { 
-display: block !important; 
-visibility: visible !important; 
+	display: block !important; 
+	visibility: visible !important; 
 } 
 .navbar-toggle { 
-display: block; 
+	display: block; 
 } 
 .navbar-header { 
-float: none; 
+	float: none; 
 } 
  .navbar-nav>li {
     float: none;
@@ -232,7 +227,7 @@ float: none;
 .navbar-collapse.collapse, 
 .navbar-collapse.collapse.in,
 .navbar-collapse.collapsing {
-  padding: 0;
+	padding: 0;
 }
 .navbar-nav {
     float: none;
@@ -241,21 +236,21 @@ float: none;
 } 
 @media(min-width: 960px) { 
 .navbar-collapse.collapse { 
-display: block !important; 
-visibility: visible !important; 
-height: auto !important; 
-padding-bottom: 0; 
-overflow: hidden !important; 
-padding: 0; 
+	display: block !important; 
+	visibility: visible !important; 
+	height: auto !important; 
+	padding-bottom: 0; 
+	overflow: hidden !important; 
+	padding: 0; 
 } 
 .navbar-toggle { 
-display: none; 
+	display: none; 
 } 
 .navbar-header { 
-float: left; 
+	float: left; 
 } 
 .navbar-nav>li {
-float: left;
+	float: left;
 }
 } 
 /*** TOP NAVIGATION BOOTSTRAP CUSTOMIZE END***/
