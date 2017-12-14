@@ -198,6 +198,10 @@ header {
  .navbar-header {
  	padding: 0 10px;
 }
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 }
 
