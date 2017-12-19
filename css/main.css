@@ -27,10 +27,16 @@
 }
 
 .col-md-5 {
-	height:1097px;
-	background: url("../img/musicfon.png") 0 0 no-repeat;
-	padding-left: 0px;
-	padding-right: 0px;
+	background: url("../img/mmusicfon.png") 0 0 repeat-y;
+	padding-bottom:233px;
+	padding-right: 40px;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Pt serif";
+}
+
+.col-md-7 {
+    padding-bottom: 50px;
 }
 
 .col-md-7 ul {
@@ -45,12 +51,56 @@
 	padding-left: 15px;
 }
 
+.col-md-10 {
+	
+}
+
+.plan-example {
+	border-top:1px solid grey;
+	padding-top: 34px;
+}
+
 .impressions {
 	padding-left: 30px;
 	padding-top:26px;
 }
 
 .impressions h4 {
-	color:#57b720;
+    color: #57b720;
+    font-weight: bolder;
+    font-family: "Open Sans";
+    font-size: 22px;
+}
+
+.impressions h1 {
+	font-family:"Open Sans";
+	font-size:30px;
 	font-weight:bold;
+}
+
+.impressions ul {
+	list-style: url("../img/ellipse.png");
+    padding-left: 25px;
+}
+
+.impressions li {
+	margin-bottom: 10px;
+	padding-left: 44px;
+}
+
+.hashtag span {
+	color:#57b720;
+	font-weight: bold;
+}
+
+.nametag {
+	border-bottom: 1px solid #57b720;
+}
+
+.col-md-2 p {
+	font-weight:bold;
+}
+
+.plan-example {
+	margin-top: 34px;
 }
