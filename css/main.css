@@ -29,7 +29,7 @@
 .col-md-5 {
 	background: url("../img/mmusicfon.png") 0 0 repeat-y;
 	padding-bottom:233px;
-	padding-right: 40px;
+	padding-right: 62px;
     text-align: left;
     font-size: 18px;
     font-family: "Pt serif";
@@ -37,6 +37,7 @@
 
 .col-md-7 {
     padding-bottom: 50px;
+    padding-right:60px;
 }
 
 .col-md-7 ul {
@@ -103,4 +104,8 @@
 
 .plan-example {
 	margin-top: 34px;
+}
+
+.container {
+	
 }
