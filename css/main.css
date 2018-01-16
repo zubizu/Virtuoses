@@ -126,7 +126,7 @@ h1 {
 	font-weight:800;
 }
 
-.teachers .col-md-1 p {
+.all-teachers {
 	color:#fff;
 	background:#9a3c3c;
 	text-decoration: underline;
@@ -153,4 +153,31 @@ h1 {
 	font-size: 10px;
 	font-weight:bold;
 	color:#575757;
+}
+
+
+.slider span {
+	font-size:30px;
+	font-family: "Open Sans";
+	font-weight: 800;
+	text-decoration: underline;
+	color:#5b5959;
+	
+}
+
+.slider span:first-child {
+	text-decoration: none;
+	color:#57b720;
+}
+
+
+.how-it-was {
+	font-size: 48px;
+	font-weight: 800;
+	font-family: "Open Sans";
+	/*display:inline-block;*/
+}
+
+.slider-years {
+	text-align:right;
 }
