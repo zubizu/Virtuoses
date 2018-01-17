@@ -29,7 +29,7 @@ body {
 }
 
 .col-md-5 {
-	background: url("../img/mmusicfon.png") 0 0 repeat-y;
+	background: url("../img/mmusicfon.png") 0 0 repeat;
 	padding-bottom:233px;
 	padding-right: 62px;
     text-align: left;
@@ -156,7 +156,7 @@ h1 {
 }
 
 
-.slider span {
+.slider a {
 	font-size:30px;
 	font-family: "Open Sans";
 	font-weight: 800;
@@ -165,7 +165,7 @@ h1 {
 	
 }
 
-.slider span:first-child {
+.slider a:active {
 	text-decoration: none;
 	color:#57b720;
 }
@@ -180,4 +180,18 @@ h1 {
 
 .slider-years {
 	text-align:right;
+}
+
+
+@media  (max-width: 990px)  {
+
+.impressions	{
+	padding-left:20px ;
+	padding-right:20px;
+	}
+
+.teachers .teac {
+    margin-left: 0px;
+}
+
 }
