@@ -195,3 +195,14 @@ h1 {
 }
 
 }
+
+
+.dates {
+	background:url("../img/date.png") 75% 53% no-repeat;
+	border-radius:5px;
+}
+
+.price {
+	background:url("../img/mmmusicfon.png") 0 0 repeat;
+	border-radius:5px;
+}
