@@ -155,13 +155,20 @@ h1 {
 	color:#575757;
 }
 
+.slider {
+	margin-top: 100px;
+}
+
+.slider.container:nth-clild(2) {
+	padding-top: 30px;
+}
 
 .slider a {
 	font-size:30px;
 	font-family: "Open Sans";
 	font-weight: 800;
-	text-decoration: underline;
 	color:#5b5959;
+	text-decoration: underline;
 	
 }
 
@@ -170,11 +177,16 @@ h1 {
 	color:#57b720;
 }
 
+.slider a:hover {
+	text-decoration:none;
+	color:#57b720;
+}
 
 .how-it-was {
 	font-size: 48px;
 	font-weight: 800;
 	font-family: "Open Sans";
+	margin-left:-15px;
 	/*display:inline-block;*/
 }
 
@@ -197,7 +209,7 @@ h1 {
 }
 
 
-.dates {
+.information .col-md-4 {
 	background:url("../img/date.png") 75% 53% no-repeat;
 	border-radius:5px;
 }
@@ -205,4 +217,17 @@ h1 {
 .price {
 	background:url("../img/mmmusicfon.png") 0 0 repeat;
 	border-radius:5px;
+}
+
+
+.glyphicon-chevron-right:before {
+	content:url("../img/rightcursor.png");
+}
+
+.glyphicon-chevron-left:before {
+	content:url("../img/leftcursor.png");
+}
+
+.information {
+	margin-top: 45px;
 }
